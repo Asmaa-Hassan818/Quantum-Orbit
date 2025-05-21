@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Movies Page</title>
+    <link rel="stylesheet"href="movies.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="site-title">Quantum Orbit</h1>
+        <div class="nav-links">
+            <a href="index.html"><button>Home</button></a>
+            <a href="index.html"><button>About Us</button></a>
+            <a href="profile.html"><button>Profile</button></a>
+            <a href="index.html"><button>Sign In</button></a>
+            <div class="search">  
+                    <span class="search-icons material-symbols-outlined"></span> 
+                    <input class="search-input" type="search" placeholder="Search">
+                </div>
+        </div>
+    </nav>
+    <div class="bar">
+        <a href="#time-traveling"><button id="time-traveling-button">Time Traveling ▾</button></a>
+        <a href="#space"><button id="spce">Space ▾</button></a>
+        <a href="#QuantumVerses"><button>Quantum Verses ▾</button></a>
+        <a href="#vidz4js"><button>Videos ▾</button></a>
+      </div>
+    <div class="categories" id="time-traveling">
+        <div class="titlezz"> Time <span class="Traveling">Traveling</span>   
+    </div>
+    <div class="line1">
+        <h4>Does changing the past change the future?</h4>
+    </div>
+    <div class="movie-gallery">
+
+    <img src="img/back to the future.jpeg" alt="Back to the Future">
+    <img src="img/Avengers_ End game.jpeg" alt="Avengers: Endgame">
+    <img src="img/Interstellar.jpeg" alt="Interstellar">
+    <img src="img/passengers.jpeg" alt="Passengers">
+    <img src="img/Tenet.jpeg" alt="Tenet">
+    <img src="img/Arrival.jpeg" alt="Arrival">
+    <img src="img/Doctor Strange.jpeg" alt="Doctor Strange">
+    <img src="img/deadpool.jpeg" alt="Deadpool & Wolverine">
+    <img src="img/Predestination.jpeg" alt="Predestination">
+    <img src="img/outlander.jpeg" alt="Outlander">
+    <img src="img/looper.jpeg" alt="Looper">
+    <img src="img/11.22.63.jpeg" alt="11.22.63">
+
+
+    </div>
+    </div>
+    <div class="categories" id="space">
+        <div class="titlezz"><span class="space">Space</span></div>
+        <div class="line2">
+            <h4>What lies beyond infinity?</h4>
+        </div>
+        <div class="movie-gallery">
+            <img src="img/Apollo 13.jpeg" alt="Apollo 13">
+            <img src="img/Avengers_ End game.jpeg" alt="Avengers: Endgame">
+            <img src="img/Interstellar.jpeg" alt="Interstellar">
+            <img src="img/passengers.jpeg" alt="Passengers">
+            <img src="img/GRAVITY.jpeg" alt="Gravity">
+            <img src="img/AD Astra.jpeg" alt="Ad Astra">
+            <img src="img/guardians.jpeg" alt="Guardians of the Galaxy">
+            <img src="img/The Martian.jpeg" alt="The Martian">
+            <img src="img/Alien_ Covenant.jpeg" alt="Alien Covenant">
+            <img src="img/First Man.jpeg" alt="First Man">
+            <img src="img/Sunshine.jpeg" alt="Sunshine">
+            <img src="img/et.jpeg" alt="ET">
+            <img src="img/dune.jpeg" alt="Dune">
+
+
+        </div>
+    </div>
+    <div class="categories" id="QuantumVerses">
+        <div class="titlezz"><span class="QuantumVerses">Quantum</span> Verses</div>
+        <div class="line3">
+            <h4>Does one choice create infinite realities?</h4>
+        </div>
+        <div class="movie-gallery">
+            <img src="img/spiderman.jpeg" alt="Spiderman: no way home">
+            <img src="img/Interstellar.jpeg" alt="Interstellar">
+            <img src="img/Loki.jpeg" alt="Loki">
+            <img src="img/Lucy.jpeg" alt="Lucy">
+            <img src="img/The Butterfly Effect.jpeg" alt="The Butterfly Effect">
+            <img src="img/EEAAO.jpeg" alt="Everything Everywhere All at Once">
+            <img src="img/dr strange2.jpeg" alt="Doctor Strange: into the multiverse of madness">
+
+        </div>
+    </div>
+    <div class="categories" id="vidz4js">
+        <div class="titlezz">Videos<span class="titlevidz"> To Explain</span></div>
+        <div class="line3">
+            <h4>Lost in the labyrinth of theories?</h4>
+        </div>
+        <div>
+            <div class="vidz" id="vidz">
+                <div class="videocol">
+                  <video controls src="img/back to the futre vid.mp4"></video>
+                  <h5>Back To The Future Explained</h5>
+                </div>
+                <div class="videocol">
+                  <video controls src="img/Interstellar vid.mp4"></video>
+                  <h5>Interstellar Explained</h5>
+                </div>
+                <div class="videocol">
+                  <video controls src="img/The Multiverse vid(2).mp4"></video>
+                  <h5>The Multiverse Explained</h5>
+                </div>
+              </div>
+        </div>
+    </div>
+<div id="bigmovie" class="bigmovie">
+    <div class="bigContent">
+      <div class="bigDescription">
+        <h2 id="bigTitle"></h2>
+        <p id="bigDescription"></p>
+      </div>
+        <img class="bigImage" id="bigImage" src="" alt="Movie Poster">
+    </div>
+  </div>
+  
+      <script src="movies.js"></script>
+</body>
+</html>
